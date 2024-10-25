@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		289BB7862CCBF419004FEAD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 289BB76D2CCBF417004FEAD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 289BB7742CCBF417004FEAD8;
+			remoteInfo = CrodieTranslator;
+		};
+		289BB7902CCBF419004FEAD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 289BB76D2CCBF417004FEAD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 289BB7742CCBF417004FEAD8;
+			remoteInfo = CrodieTranslator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		289BB7752CCBF417004FEAD8 /* CrodieTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrodieTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		289BB7852CCBF419004FEAD8 /* CrodieTranslatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrodieTranslatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		289BB78F2CCBF419004FEAD8 /* CrodieTranslatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrodieTranslatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		289BB7772CCBF417004FEAD8 /* CrodieTranslator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CrodieTranslator;
+			sourceTree = "<group>";
+		};
+		289BB7882CCBF419004FEAD8 /* CrodieTranslatorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CrodieTranslatorTests;
+			sourceTree = "<group>";
+		};
+		289BB7922CCBF419004FEAD8 /* CrodieTranslatorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CrodieTranslatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		289BB7722CCBF417004FEAD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289BB7822CCBF419004FEAD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289BB78C2CCBF419004FEAD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		289BB76C2CCBF417004FEAD8 = {
+			isa = PBXGroup;
+			children = (
+				289BB7772CCBF417004FEAD8 /* CrodieTranslator */,
+				289BB7882CCBF419004FEAD8 /* CrodieTranslatorTests */,
+				289BB7922CCBF419004FEAD8 /* CrodieTranslatorUITests */,
+				289BB7762CCBF417004FEAD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		289BB7762CCBF417004FEAD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				289BB7752CCBF417004FEAD8 /* CrodieTranslator.app */,
+				289BB7852CCBF419004FEAD8 /* CrodieTranslatorTests.xctest */,
+				289BB78F2CCBF419004FEAD8 /* CrodieTranslatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		289BB7742CCBF417004FEAD8 /* CrodieTranslator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289BB7992CCBF419004FEAD8 /* Build configuration list for PBXNativeTarget "CrodieTranslator" */;
+			buildPhases = (
+				289BB7712CCBF417004FEAD8 /* Sources */,
+				289BB7722CCBF417004FEAD8 /* Frameworks */,
+				289BB7732CCBF417004FEAD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				289BB7772CCBF417004FEAD8 /* CrodieTranslator */,
+			);
+			name = CrodieTranslator;
+			packageProductDependencies = (
+			);
+			productName = CrodieTranslator;
+			productReference = 289BB7752CCBF417004FEAD8 /* CrodieTranslator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		289BB7842CCBF419004FEAD8 /* CrodieTranslatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289BB79C2CCBF419004FEAD8 /* Build configuration list for PBXNativeTarget "CrodieTranslatorTests" */;
+			buildPhases = (
+				289BB7812CCBF419004FEAD8 /* Sources */,
+				289BB7822CCBF419004FEAD8 /* Frameworks */,
+				289BB7832CCBF419004FEAD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				289BB7872CCBF419004FEAD8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				289BB7882CCBF419004FEAD8 /* CrodieTranslatorTests */,
+			);
+			name = CrodieTranslatorTests;
+			packageProductDependencies = (
+			);
+			productName = CrodieTranslatorTests;
+			productReference = 289BB7852CCBF419004FEAD8 /* CrodieTranslatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		289BB78E2CCBF419004FEAD8 /* CrodieTranslatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289BB79F2CCBF419004FEAD8 /* Build configuration list for PBXNativeTarget "CrodieTranslatorUITests" */;
+			buildPhases = (
+				289BB78B2CCBF419004FEAD8 /* Sources */,
+				289BB78C2CCBF419004FEAD8 /* Frameworks */,
+				289BB78D2CCBF419004FEAD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				289BB7912CCBF419004FEAD8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				289BB7922CCBF419004FEAD8 /* CrodieTranslatorUITests */,
+			);
+			name = CrodieTranslatorUITests;
+			packageProductDependencies = (
+			);
+			productName = CrodieTranslatorUITests;
+			productReference = 289BB78F2CCBF419004FEAD8 /* CrodieTranslatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		289BB76D2CCBF417004FEAD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					289BB7742CCBF417004FEAD8 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					289BB7842CCBF419004FEAD8 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 289BB7742CCBF417004FEAD8;
+					};
+					289BB78E2CCBF419004FEAD8 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 289BB7742CCBF417004FEAD8;
+					};
+				};
+			};
+			buildConfigurationList = 289BB7702CCBF417004FEAD8 /* Build configuration list for PBXProject "CrodieTranslator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 289BB76C2CCBF417004FEAD8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 289BB7762CCBF417004FEAD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				289BB7742CCBF417004FEAD8 /* CrodieTranslator */,
+				289BB7842CCBF419004FEAD8 /* CrodieTranslatorTests */,
+				289BB78E2CCBF419004FEAD8 /* CrodieTranslatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		289BB7732CCBF417004FEAD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289BB7832CCBF419004FEAD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289BB78D2CCBF419004FEAD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		289BB7712CCBF417004FEAD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289BB7812CCBF419004FEAD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289BB78B2CCBF419004FEAD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		289BB7872CCBF419004FEAD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 289BB7742CCBF417004FEAD8 /* CrodieTranslator */;
+			targetProxy = 289BB7862CCBF419004FEAD8 /* PBXContainerItemProxy */;
+		};
+		289BB7912CCBF419004FEAD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 289BB7742CCBF417004FEAD8 /* CrodieTranslator */;
+			targetProxy = 289BB7902CCBF419004FEAD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		289BB7972CCBF419004FEAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		289BB7982CCBF419004FEAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		289BB79A2CCBF419004FEAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CrodieTranslator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KristophCode.CrodieTranslator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		289BB79B2CCBF419004FEAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CrodieTranslator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KristophCode.CrodieTranslator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		289BB79D2CCBF419004FEAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KristophCode.CrodieTranslatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrodieTranslator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CrodieTranslator";
+			};
+			name = Debug;
+		};
+		289BB79E2CCBF419004FEAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KristophCode.CrodieTranslatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrodieTranslator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CrodieTranslator";
+			};
+			name = Release;
+		};
+		289BB7A02CCBF419004FEAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KristophCode.CrodieTranslatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrodieTranslator;
+			};
+			name = Debug;
+		};
+		289BB7A12CCBF419004FEAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KristophCode.CrodieTranslatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrodieTranslator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		289BB7702CCBF417004FEAD8 /* Build configuration list for PBXProject "CrodieTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289BB7972CCBF419004FEAD8 /* Debug */,
+				289BB7982CCBF419004FEAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		289BB7992CCBF419004FEAD8 /* Build configuration list for PBXNativeTarget "CrodieTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289BB79A2CCBF419004FEAD8 /* Debug */,
+				289BB79B2CCBF419004FEAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		289BB79C2CCBF419004FEAD8 /* Build configuration list for PBXNativeTarget "CrodieTranslatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289BB79D2CCBF419004FEAD8 /* Debug */,
+				289BB79E2CCBF419004FEAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		289BB79F2CCBF419004FEAD8 /* Build configuration list for PBXNativeTarget "CrodieTranslatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289BB7A02CCBF419004FEAD8 /* Debug */,
+				289BB7A12CCBF419004FEAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 289BB76D2CCBF417004FEAD8 /* Project object */;
+}
