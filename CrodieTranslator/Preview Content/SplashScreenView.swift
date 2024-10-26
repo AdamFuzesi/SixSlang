@@ -33,7 +33,7 @@ struct SplashScreenView: View {
                         .foregroundColor(.white)
                     Spacer()
                 }
-                // Expand VStack to fill the screen
+                // expand VStack to fill the screen
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
             .onAppear {

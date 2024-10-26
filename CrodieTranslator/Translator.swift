@@ -66,12 +66,14 @@ class Translator {
                 if let translations = slangTranslator[phrase.lowercased()], let torontoPhrase = translations["toronto"] {
                     torontoWords.append(torontoPhrase)
                     i += n
-                    foundMatch = truet
+                    foundMatch = true
                 } else {
                     n -= 1
+
                 }
+                // idea for the algorithm could be to hold the current value insdie of an array or list and then parse that through a graph tree to identify the next value.
                 
-                // back track this algorithm to see where there are redundancies in the translation for some cases with: ' or a letter off from another word
+                // back track this algorithm to see where there are redundancies in the translation for some cases with: ' or a letter off from another word... the main issue really is when the word has specific intricate identities... this solution might be the most optimal t
             }
             if !foundMatch {
                 let word = words[i]
